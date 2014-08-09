@@ -8,13 +8,13 @@ Installation
 
 ### docker-function.sh ###
 
-Copy file to /etc/profile.d:
+Copy file to `/etc/profile.d`:
 
         # curl https://raw.githubusercontent.com/TechneDevAB/docker-functions/master/docker-functions.sh -o /etc/profile.d/docker-functions.sh
 
 ### docker.service ###
 
-Set `TMPDIR` for Docker service (when started with systemd, in ArchLinux for instance). Copy file to /etc/systemd/system and restart service:
+Set `TMPDIR` for Docker service (when started with systemd, in ArchLinux for instance). Copy file to `/etc/systemd/system` and restart service:
 
         # curl https://raw.githubusercontent.com/TechneDevAB/docker-functions/master/docker-functions.sh -o /etc/systemd/system/docker.service
         # systemctl daemon-reload
